@@ -13,7 +13,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
+# Test Comment
 load("@bazel_toolchains//rules/exec_properties:exec_properties.bzl", "create_rbe_exec_properties_dict")
 
 platform(
@@ -28,7 +28,7 @@ platform(
 		container_image = "ubuntu:latest",
 	),
 )
-
+# Test Comment
 java_library(
     name = "test_deps",
     visibility = ["//visibility:public"],
