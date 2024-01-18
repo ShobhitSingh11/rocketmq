@@ -18,5 +18,5 @@
 package org.apache.rocketmq.acl;
 
 public interface AccessResource {
-  // erfhkerhfgiur3gf
+  // erfhkerhfgiur3gfefwef
 }
