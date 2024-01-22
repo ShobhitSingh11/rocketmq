@@ -60,6 +60,7 @@ public class DefaultJoranConfiguratorExt extends DefaultJoranConfigurator {
         configFiles.add(CONTROLLER_AUTOCONFIG_FILE);
         configFiles.add(TOOLS_AUTOCONFIG_FILE);
         configFiles.add(CLIENT_AUTOCONFIG_FILE);
+        // hfhejfhwif
     }
 
     @Override
