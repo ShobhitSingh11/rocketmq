@@ -8,7 +8,6 @@ pipeline:
     ci:
       codebase:
         connectorRef: CI11556BitbucketServer
-        repoName: scm/har/naman-test.git
         build: <+input>
   stages:
     - stage:
