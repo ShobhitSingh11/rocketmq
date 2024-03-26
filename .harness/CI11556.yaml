@@ -28,3 +28,14 @@ pipeline:
               automountServiceAccountToken: true
               nodeSelector: {}
               os: Linux
+          execution:
+            steps:
+              - step:
+                  type: Run
+                  name: Run_1
+                  identifier: Run_1
+                  spec:
+                    connectorRef: account.CItestDockerConnectoroRZjRQVrm9
+                    image: alpine
+                    shell: Sh
+                    command: echo "hello"
