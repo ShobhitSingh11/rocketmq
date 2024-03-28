@@ -20,14 +20,6 @@ pipeline:
           cloneCodebase: true
           caching:
             enabled: true
-          infrastructure:
-            type: KubernetesDirect
-            spec:
-              connectorRef: ShobhitK8
-              namespace: harness-delegate-ng
-              automountServiceAccountToken: true
-              nodeSelector: {}
-              os: Linux
           execution:
             steps:
               - step:
@@ -39,3 +31,9 @@ pipeline:
                     image: alpine
                     shell: Sh
                     command: echo "hello"
+          platform:
+            os: Linux
+            arch: Amd64
+          runtime:
+            type: Cloud
+            spec: {}
