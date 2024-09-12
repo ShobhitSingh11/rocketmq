@@ -91,6 +91,7 @@ public class BrokerContainerProcessor implements NettyRequestProcessor {
                 LOGGER.error("addBroker load config from {} failed, {}", configPath, e);
             }
         } else {
+            // container
             byte[] body = request.getBody();
             if (body != null) {
                 String bodyStr = new String(body, MixAll.DEFAULT_CHARSET);

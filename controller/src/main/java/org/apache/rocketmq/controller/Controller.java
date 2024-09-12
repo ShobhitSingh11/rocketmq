@@ -32,7 +32,7 @@ import org.apache.rocketmq.remoting.protocol.header.controller.RegisterBrokerToC
  * The api for controller
  */
 public interface Controller {
-
+     // controller
     /**
      * Startup controller
      */
